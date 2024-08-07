@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #0b1277;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+@media (max-width: 600px) {
+    nav ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form label,
+    form input,
+    form textarea {
+        margin-bottom: 10px;
+    }
+}
+.Pdubai{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+header {
+
+    padding: 20px 0;
+    background-color: #0d2088;
+    color: #ffffff;
+    
+}
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+section {
+    margin: 20px 0;
+}
+h2 {
+    font-size: 1.5em;
+    color: #000000;
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+.text-block {
+    margin-bottom: 20px;
+}
+.P1{
+    text-align: center;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top:0.5%;
+    right: 15px;
+    padding: 0;
+    z-index: 80;
+}
+.grupo{
+    position: relative;
+    margin-left: 200px;
+    margin-right: 400px;
+}
+.main-footer{
+    position: relative;
+    padding: 30px;
+}
+.container2 {
+    display: flex; /* Habilita Flexbox */
+    align-items: center; /* Alinha verticalmente ao centro */
+    gap: 20px; /* Espaço entre a imagem e o texto */
+    padding: 20px; /* Espaçamento interno opcional */
+}
+.container2 p {
+    font-size: 20px; /* Define o tamanho da fonte */
+    margin: 0; /* Remove margens padrão */
+}

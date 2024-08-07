@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="estila.css">
+</head>
+<body>
+    <header>
+        <h1>Destinos Incríveis</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            
+        </nav>
+    <img   class="logo"   src="imagens/imagem_2024-08-06_212408305-removebg-preview.png" alt="logo">
+    </header>
+    <main>
+        <section>
+            <fieldset class="grupo">
+                <h2>Entre em contato com nosco!</h2>
+                <label class="tit" for="nome">Nome:</label> <br>
+                <input type="text" name="Nome" id="nome" size="50px" required placeholder="Nome completo" />
+                <br>
+                <br>
+                <label class="tit" for="dataNascimento">Data Nascimento:</label> <br>
+                <input type="date" name="dataNascimento" id="dataNascimento" placeholder=" XX/XX/XX" />
+                <br>
+                <br>		
+                <label class="tit" for="sexo">Sexo:</label> <br>
+                <input type="radio" name="sexo" value="F" id="sexoFeminino" /><label for="sexoFeminino">Feminino</label>
+                <input type="radio" name="sexo" value="M" id="sexoMasculino" /><label for="sexoMasculino">Masculino</label>
+                <br> 
+                <br>
+                <label class="tit" for="contato">Contato:</label> <br> 
+                <input type="checkbox" name="telefone" id="telefone" /><label for="telefone">Telefone</label>
+                <input type="checkbox" name="email" id="email" /><label for="email">E-mail</label>
+                <input type="text" name="contato" id="contato" />
+                <br>			
+                <br>
+                <label class="tit" for="descricaoArquivo">Descrição:</label> <br>
+                <textarea name="descricaoArquivo" cols="60" rows="2" id="descricaoArquivo"></textarea>
+                <br>
+                <br>
+                <label class="tit" for="interesse">Interesse:</label> <br>
+                <select name="interesse" id="interesse"> <br>
+                    <option value="banho">Escolha uma opçao:</option>
+                    <option value="banho">Viagem Internacional</option>
+                    <option value="hospedagem">Viagem nacional</option>
+                </select>
+                <br>	<br>		
+                <input name="btnEnvio" type="submit" value="Enviar" />			
+                
+                &nbsp;	&nbsp; &nbsp;&nbsp;&nbsp;		
+                <input name="btnReset" type="reset" value="Limpar" />
+                
+            </fieldset>
+            </form>
+        </section>
+
+    </main>
+    <footer class="main-footer" >
+        <section  class="foot-section" >
+            <h1>Contato</h1>
+            <p>(11) 99112-1112</p>
+            <p>DestinosIncriveis@gmail.com</p>
+        </section>
+        <p>&copy; 2024 Viagem dos Sonhos</p>
+    </footer>
+</body>
+</html>
